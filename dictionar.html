@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionar</title>
+    <style>
+        p, .formBox, .title, input[type=text], input[type=search] {
+            margin: auto;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">Dictionar</h1>
+        
+    <form>
+        <div class="formBox">
+            <label for="addword">Enter a word:</label><br>
+            <input type="text" id="addword" placeholder="Add a word">
+            <input type="submit" value="Click to add" class="clickAdd">
+        </div>
+        <div class="formBox">
+            <label for="wsearch">Search a word:</label><br>
+            <input type="search" id="wsearch" placeholder="Search a word">
+            <input type="submit" value="Search" class="clickSearch">
+        </div>
+        <div id="msg">
+            <p></p>
+        </div>
+    </form>
+   
+    <script src="scripts/script.js"></script>
+</body>
+</html>
