@@ -10,6 +10,18 @@
             margin: auto;
             width: 50%;
         }
+
+        .clearButton {
+            background-color: red;
+            border: none;
+            color: black;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 10px 250px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -26,10 +38,13 @@
             <input type="search" id="wsearch" placeholder="Search a word">
             <input type="submit" value="Search" class="clickSearch">
         </div>
+        <br>
         <div id="msg">
             <p></p>
         </div>
     </form>
+    <br>
+    <button class="clearButton">Clear</button>
    
     <script src="scripts/script.js"></script>
 </body>
